@@ -121,10 +121,7 @@ gem 'sitemap_generator', "~> 5.1.0"
 #
 # The latest master is needed because it contains the I18n.extend configuration
 # See: https://github.com/fnando/i18n-js/pull/397
-gem "i18n-js",
-    git: "https://github.com/fnando/i18n-js.git",
-    branch: "master",
-    ref: "2ca6d31365bb41db21e373d126cac00d38d15144"
+gem "i18n-js"
 
 # A store scoped to the request object for caching
 gem "request_store", "~> 1.3"
