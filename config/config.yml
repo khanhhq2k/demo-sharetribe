@@ -1,0 +1,21 @@
+# Locally override default configurations
+#
+# This file overrides configurations set in `config/config.defaults.yml`.
+# Keep in mind that environment variables override setting in this file.
+#
+# Usage:
+#
+# Copy this file from `config/config.example.yml` to `config/config.yml`
+#
+
+development:
+  # Add local `development` environment configuration overrides here
+
+test:
+  # Add local `test` environment configuration overrides here
+
+staging:
+  # Add local `staging` environment configuration overrides here
+
+production:
+  secret_key_base: 378225724648e4a0cef684ff3722cfee53a8611fbad86f23eb37493962e35e4ffbcf31cbfa12f3999be47c8110770e34e62135a0d59200484d436da6a7f6ec6a

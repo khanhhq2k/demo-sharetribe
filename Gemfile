@@ -63,7 +63,10 @@ gem "truncate_html", "~>0.9.1"
 gem 'money-rails', "~>1.4.0"
 
 # The latest release (0.9.0) is not Rails 4 compatible
-gem 'mercury-rails'
+gem 'mercury-rails',
+  git: 'https://github.com/jejacks0n/mercury.git',
+  branch: 'master',
+  ref: '1cc637b0bccea19085f824d2881c6513ed5ee8ae'
 
 gem 'countries', '~> 1.2', '>= 1.2.2'
 gem "mail_view", "~> 1.0.3"
@@ -118,7 +121,7 @@ gem "i18n-js"
 gem "request_store", "~> 1.3"
 
 group :staging, :production do
-  gem 'newrelic_rpm', '~> 3.9.1.236'
+  gem 'newrelic_rpm', '~> 4.0', '>= 4.0.0.332'
   gem 'rails_12factor', '~> 0.0.3'
 end
 
