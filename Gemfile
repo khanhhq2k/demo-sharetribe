@@ -66,10 +66,7 @@ gem "truncate_html", "~>0.9.1"
 gem 'money-rails', "~>1.4.0"
 
 # The latest release (0.9.0) is not Rails 4 compatible
-gem 'mercury-rails',
-  git: 'https://github.com/jejacks0n/mercury.git',
-  branch: 'master',
-  ref: '1cc637b0bccea19085f824d2881c6513ed5ee8ae'
+gem 'mercury-rails'
 
 gem 'countries', '~> 1.2', '>= 1.2.2'
 gem "mail_view", "~> 1.0.3"
@@ -85,10 +82,7 @@ gem 'jwt', '~> 1.5.2'
 # Use Oauth2 from current master, because the newest release
 # uses old JWT version
 # (This can be removed when oauth2 version > 1.1.0 is released)
-gem 'oauth2',
-  git: 'https://github.com/intridea/oauth2.git',
-  branch: 'master',
-  ref: 'e0006cb5099bf392f011eb5c49cbec4f893bbdba'
+gem 'oauth2'
 
 gem 'lograge', "~> 0.3.2"
 gem 'public_suffix', "~> 1.5.1" # Needed currently to set GA hostname right, probably not
