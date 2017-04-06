@@ -63,10 +63,7 @@ gem "truncate_html", "~>0.9.1"
 gem 'money-rails', "~>1.4.0"
 
 # The latest release (0.9.0) is not Rails 4 compatible
-gem 'mercury-rails',
-  git: 'https://github.com/jejacks0n/mercury.git',
-  branch: 'master',
-  ref: '1cc637b0bccea19085f824d2881c6513ed5ee8ae'
+gem 'mercury-rails'
 
 gem 'countries', '~> 1.2', '>= 1.2.2'
 gem "mail_view", "~> 1.0.3"
