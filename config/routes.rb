@@ -5,7 +5,7 @@ Kassi::Application.routes.draw do
     resources :images
   end
 
-  mount Mercury::Engine => '/'
+  # mount Mercury::Engine => '/'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
